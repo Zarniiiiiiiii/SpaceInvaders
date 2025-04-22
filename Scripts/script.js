@@ -292,7 +292,7 @@ class Player extends Character {
     let color = colorArray[Math.floor(Math.random() * colorArray.length)];
     let y = canvas.height - height;
 
-    super(x, y, dx, 0, width, height, color, 2, false, 9, imgSrc, srcX, srcY, srcWidth, srcHeight);
+    super(x, y, dx, 0, width, height, color, 5, false, 9, imgSrc, srcX, srcY, srcWidth, srcHeight);
 
     this.lives = 5;
     this.ogSrcX = srcX;
